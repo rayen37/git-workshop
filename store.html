@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Otaku| Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="icon.png" width="75">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+     
+    
+    </ul>
+    <div >
+        <a class="nav-link " href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="cart-total">
+                
+                <span class="cart-total-price"><strong>$0</strong></span>
+            </div>
+        </a>
+        
+      </div>
+     <div class="nav-item dropdown ">
+        <a href="" data-toggle="modal" data-target="#myModal" class="btn btn-out btn-secondary btn-square btn-main" data-abc="true"> VIEW CART </a>
+        
+      </div>
+  </div>
+</nav>
+        <section class="container content-section">
+            <h2 class="section-header">OTAKU STORE</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Livai T-Shirt</span>
+                    <img class="shop-item-image" src="https://canary.contestimg.wish.com/api/webimage/5e1545c8903cb4070fccdc69-large.jpg?cache_buster=3b11f4ce16410113a66dd6db18e7d9f8">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><strong>$12.99</strong></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Naruto T-Shirt</span>
+                    <img class="shop-item-image" src="https://www.ubuy.tn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvQTEzdXNhb251dEwuX0NMYSU3QzIxNDAlMkMyMDAwJTdDODEzNW91Zm9UMkwucG5nJTdDMCUyQzAlMkMyMTQwJTJDMjAwMCUyQjAuMCUyQzAuMCUyQzIxNDAuMCUyQzIwMDAuMF9BQ19VTDE1MDBfLnBuZw.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><strong>$14.99</strong></span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Yumeko T-Shirt</span>
+                    <img class="shop-item-image" src="https://canary.contestimg.wish.com/api/webimage/5f7e8e4931c5c30b11a926d4-large.jpg?cache_buster=21b2d09c88771e05af5248ecf572287d">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><strong>$27.99  </strong></span> 
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        
+                        <i class="fa fa-heart"></i>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+     
+        
+
+
+        
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+        </button>
+        
+      </div>
+      
+        
+     <section class="container content-section">
+            <div class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-12">
+                <div class="card">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            
+        </div>
+        
+        </div>
+    </aside>
+        </section>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </body>
+</html>
